@@ -45,7 +45,7 @@ using namespace std;
 LL hash[maxn], a[5][202];
 int flag[maxn];
 
-int Hash(LL k)
+int Hash(LL k)  //hash函数
 {
     LL p = k % maxn;
     if(p < 0)
